@@ -20,11 +20,18 @@ This script is specific to the platform target described below. If the above scr
 * Install & Setup server prerequisites (e.g. timezone, git, etc.)
 * Securing The System
  * HTTPS & Reverse Proxy (optional)
+ * Primary & Backup Domain Name (optional)
  * Access to server via SSH key with passphrase (optional)
+  * SSH Key sent mailed to user (you can remove/edit this)
  * Disable Root on SSH (optional)
  * Create sudo user (for editing & running commands)
  * TBD - add fail2ban
+ * TBD - whitelist remote IP
 * Create odoo system user
-* Install postgres (no password, trust localhost), create an odoo postgres user and create the templatedb for the user
+* Install postgres
+ * No password, trust localhost
+ * Create an odoo postgres user and create the templatedb for the user
+ * TBD - postgres master-slave replication (HA, need another instance of PG running...)
 * Install Odoo via Github
+* Configure xmlrpc
 * Install Odoo as a service
