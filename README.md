@@ -1,5 +1,7 @@
 # odoo-digitalocean-ubuntu-lamp-install
-Automated Install Script For Odoo with SSH &amp; Reverse Proxy
+Automated Install Script For Odoo v8 with SSH &amp; Reverse Proxy
+
+Odoo v9 is in progress and will be based on http://openies.com/blog/install-openerp-odoo-9-on-ubuntu-server-14-04-lts/
 
 ## Basis
 There are several odoo installation scripts out there, the two below was the basis for this one.
